@@ -152,46 +152,46 @@ if ( ! function_exists( 'fumee_enqueue_scripts' ) ) :
 
         /* Pinegrow generated Enqueue Scripts Begin */
 
-    wp_register_script( 'inline-script-1', '', [], '1.0.23', false );
+    wp_register_script( 'inline-script-1', '', [], '1.0.22', false );
     wp_enqueue_script( 'inline-script-1' );
     wp_add_inline_script( 'inline-script-1', '/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute(\'data-pg-ia-disabled\')) { window.pgia_small_mq=typeof pgia_small_mq==\'string\'?pgia_small_mq:\'(max-width:767px)\';window.pgia_large_mq=typeof pgia_large_mq==\'string\'?pgia_large_mq:\'(min-width:768px)\';var style = document.createElement(\'style\');var pgcss=\'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}\';if(document.documentElement.hasAttribute(\'data-pg-id\') && document.documentElement.hasAttribute(\'data-pg-mobile\')) {pgia_small_mq=\'(min-width:0)\';pgia_large_mq=\'(min-width:99999px)\'} pgcss+=\'@media \' + pgia_small_mq + \'{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}\';pgcss+=\'@media \' + pgia_large_mq + \'{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}\';style.innerHTML=pgcss;document.querySelector(\'head\').appendChild(style);}}catch(e){console&&console.log(e);}})()');
 
     wp_deregister_script( 'fumee-popper' );
-    wp_enqueue_script( 'fumee-popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], '1.0.23', true);
+    wp_enqueue_script( 'fumee-popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], '1.0.22', true);
 
     wp_deregister_script( 'fumee-bootstrap' );
-    wp_enqueue_script( 'fumee-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', [], '1.0.23', true);
+    wp_enqueue_script( 'fumee-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', [], '1.0.22', true);
 
     wp_deregister_script( 'fumee-pgia' );
-    wp_enqueue_script( 'fumee-pgia', get_template_directory_uri() . '/pgia/lib/pgia.js', [], '1.0.23', true);
+    wp_enqueue_script( 'fumee-pgia', get_template_directory_uri() . '/pgia/lib/pgia.js', [], '1.0.22', true);
 
     wp_deregister_script( 'fumee-ks_script' );
-    wp_enqueue_script( 'fumee-ks_script', get_template_directory_uri() . '/ks_script.js', [], '1.0.23', true);
+    wp_enqueue_script( 'fumee-ks_script', get_template_directory_uri() . '/ks_script.js', [], '1.0.22', true);
 
     wp_deregister_script( 'fumee-salt_script' );
-    wp_enqueue_script( 'fumee-salt_script', get_template_directory_uri() . '/salt_script.js', [], '1.0.23', true);
+    wp_enqueue_script( 'fumee-salt_script', get_template_directory_uri() . '/salt_script.js', [], '1.0.22', true);
 
     /* Pinegrow generated Enqueue Scripts End */
 
         /* Pinegrow generated Enqueue Styles Begin */
 
     wp_deregister_style( 'fumee-bootstrap' );
-    wp_enqueue_style( 'fumee-bootstrap', get_template_directory_uri() . '/bootstrap_theme/bootstrap.css', [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-bootstrap', get_template_directory_uri() . '/bootstrap_theme/bootstrap.css', [], '1.0.22', 'all');
 
     wp_deregister_style( 'fumee-blocks' );
-    wp_enqueue_style( 'fumee-blocks', get_template_directory_uri() . '/blocks.css', [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-blocks', get_template_directory_uri() . '/blocks.css', [], '1.0.22', 'all');
 
     wp_deregister_style( 'fumee-style' );
-    wp_enqueue_style( 'fumee-style', get_bloginfo('stylesheet_url'), [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-style', get_bloginfo('stylesheet_url'), [], '1.0.22', 'all');
 
     wp_deregister_style( 'fumee-satoshi' );
-    wp_enqueue_style( 'fumee-satoshi', get_template_directory_uri() . '/satoshi.css', [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-satoshi', get_template_directory_uri() . '/satoshi.css', [], '1.0.22', 'all');
 
     wp_deregister_style( 'fumee-style-1' );
-    wp_enqueue_style( 'fumee-style-1', 'https://fonts.cdnfonts.com/css/satoshi', [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-style-1', 'https://fonts.cdnfonts.com/css/satoshi', [], '1.0.22', 'all');
 
     wp_deregister_style( 'fumee-all' );
-    wp_enqueue_style( 'fumee-all', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', [], '1.0.23', 'all');
+    wp_enqueue_style( 'fumee-all', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', [], '1.0.22', 'all');
 
     /* Pinegrow generated Enqueue Styles End */
 
