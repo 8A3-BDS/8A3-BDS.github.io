@@ -17,7 +17,7 @@
                         </li>                                 
                         <li class="nav-item"> <a class="link-light nav-link" href="https://www.instagram.com/fumee.pl/"><img src="<?php echo get_template_directory_uri(); ?>/assets/ig.png" alt="Instagram" class="icon" id="instagram"></a> 
                         </li>                                 
-                        <li class="nav-item"> <a class="link-light nav-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/wh.png" alt="Whatsapp" class="icon" id="whatsapp"></a> 
+                        <li class="nav-item"> <a class="link-light nav-link" href="https://wa.me/48533826795"><img src="<?php echo get_template_directory_uri(); ?>/assets/wh.png" alt="Whatsapp" class="icon" id="whatsapp"></a> 
                         </li>                                 
                     </ul>
                 </div>
