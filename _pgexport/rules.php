@@ -9,11 +9,11 @@
             <ul class="ms-auto navbar-nav"> 
                 <li class="align-self-center nav-item"> <a class="active link-light nav-link" aria-current="page" href="index.html#about" id="o-nas"><?php _e( 'O NAS', 'fumee' ); ?></a> 
                 </li>                         
-                <li class="align-self-center nav-item"> <a class="link-light nav-link" href="#products" id="produkty"><?php _e( 'PRODUKTY', 'fumee' ); ?></a> 
+                <li class="align-self-center nav-item"> <a class="link-light nav-link" href="index.html#products" id="produkty"><?php _e( 'PRODUKTY', 'fumee' ); ?></a> 
                 </li>                         
-                <li class="align-self-center nav-item"> <a class="align-self-center link-light nav-link" href="#contact" id="wspolpraca"><?php _e( 'KONTAKT I WSPÓŁPRACA', 'fumee' ); ?></a> 
+                <li class="align-self-center nav-item"> <a class="align-self-center link-light nav-link" href="index.html#contact" id="wspolpraca"><?php _e( 'KONTAKT I WSPÓŁPRACA', 'fumee' ); ?></a> 
                 </li>                         
-                <li class="nav-item"> <a class="link-light nav-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/ig.png" alt="Instagram" class="icon" id="instagram"></a> 
+                <li class="nav-item"> <a class="link-light nav-link" href="https://www.instagram.com/fumee.pl/"><img src="<?php echo get_template_directory_uri(); ?>/assets/ig.png" alt="Instagram" class="icon" id="instagram"></a> 
                 </li>                         
                 <li class="nav-item"> <a class="link-light nav-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/wh.png" alt="Whatsapp" class="icon" id="whatsapp"></a> 
                 </li>                         
@@ -185,7 +185,8 @@
                     <?php _e( 'NIP 8992993846', 'fumee' ); ?>
                     <br>
                     <?php _e( 'REGON 528667600', 'fumee' ); ?>
-                </div><span></span>>
+                </div>
+                <span></span>>
                 <div class="col-md-6 data1 order-first order-lg-last order-md-last order-sm-first order-xl-last order-xxl-last">
                     <p><img src="<?php echo get_template_directory_uri(); ?>/assets/phone-call.png" class="phone-icon"> <span class="text-white"><?php _e( '+48 533 826 795', 'fumee' ); ?></span></p>
                     <p><img src="<?php echo get_template_directory_uri(); ?>/assets/mail.png" class="phone-icon"><span class="text-white"><?php _e( 'biuro@fumee.pl', 'fumee' ); ?></span></p>
@@ -195,12 +196,12 @@
     </div>
     <div class="justify-content-md-evenly pb-3 row">
         <div class="col-md-7 col-xxl-6 data-footer order-last order-md-first order-sm-last order-xxl-first" "">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/breath.png">
-            <span class="text-white"><?php _e( '@2024 wszelkie prawa zastrzeżone BREATH DESIGN STUDIO by Oliwia Golis', 'fumee' ); ?></span> 
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/breath.png"><span class="text-white"><?php _e( '@2024 wszelkie prawa zastrzeżone BREATH DESIGN STUDIO by Oliwia Golis', 'fumee' ); ?></span> 
             <!-- dodać <a> do instagrama Oliwci -->
         </div>
-        <div class="col-md-4 justify-content-md-end rules-container">
-            <a class="active link-light nav-link" aria-current="page" href="#"><?php _e( 'POLITYKA PRYWATNOŚCI', 'fumee' ); ?></a><span class="separator text-white"> / </span><a class="active link-light nav-link" aria-current="page" href="#"><?php _e( 'REGULAMIN', 'fumee' ); ?></a>
+        <div class="col-md-4 justify-content-md-end rules-container"><a class="active link-light nav-link" aria-current="page" href="policy.html"><?php _e( 'POLITYKA PRYWATNOŚCI', 'fumee' ); ?></a>
+            <span class="separator text-white"> / </span>
+            <a class="active link-light nav-link" aria-current="page" href="rules.html"><?php _e( 'REGULAMIN', 'fumee' ); ?></a>
             <!--  
                             podpiąć taki odnośnik pod obrazek w nagłówku
                             <a href="https://wa.me/48123456789?text=Cze%C5%9B%C4%87%2C%20jak%20si%C4%99%20masz%3F" target="_blank"></a> 

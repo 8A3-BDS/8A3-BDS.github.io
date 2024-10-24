@@ -42,14 +42,33 @@
                     <div class="carousel-item">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/fumee_slider_5.png"/>
                     </div>
-                </div><a href="#carouselExampleControls" role="button" data-bs-slide="prev" class="carousel-control-prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden"><?php _e( 'Previous', 'fumee' ); ?></span> </a><a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next"> <span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden"><?php _e( 'Next', 'fumee' ); ?></span> </a>
+                </div>
+                <a href="#carouselExampleControls" role="button" data-bs-slide="prev" class="carousel-control-prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden"><?php _e( 'Previous', 'fumee' ); ?></span> </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next"> <span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden"><?php _e( 'Next', 'fumee' ); ?></span> </a>
             </div>
         </div>
         <!-- Sekcja About -->
         <section id="about">
             <div class="marquee">
-                <div class="track">
-                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span> <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                <div class="track"><span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span> <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
+                    <span><?php _e( 'POZNAJ NAS', 'fumee' ); ?></span>
                 </div>
             </div>
             <div class="container-fluid"> 
@@ -77,22 +96,15 @@
                         <p class="lead-ask"> <?php _e( 'Posiadasz kilka sklepów?', 'fumee' ); ?><br><?php _e( 'A może rozwinąłeś już swoją sieć vape shopów w wielu miastach?', 'fumee' ); ?></p>
                         <p class="lead-ask"> <?php _e( 'Skontaktuj się z nami, a na pewno nawiążemy owocną współpracę!', 'fumee' ); ?></p>
                     </div>
-                </div>
-                <a href="#" class="btn btn-ask pe-3 ps-3" data-pg-ia='{"l":[{"trg":"mouseenter","a":"rubberBand"}]}'><?php _e( 'NAPISZ DO NAS!', 'fumee' ); ?></a>
+                </div><a href="#" class="btn btn-ask pe-3 ps-3" data-pg-ia='{"l":[{"trg":"mouseenter","a":"rubberBand"}]}'><?php _e( 'NAPISZ DO NAS!', 'fumee' ); ?></a>
             </div>
         </section>
     </section>
 </section>
 <section id="products" style="margin-left: auto; margin-right: auto;" class="container-fluid">
     <div id="marquee-products" style="z-index: 2;" class="marquee">
-        <div class="track"><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span> <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span>
-            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span> 
+        <div class="track">
+            <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span> <span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span><span><?php _e( 'POZNAJ NASZE PRODUKTY', 'fumee' ); ?></span> 
         </div>
     </div>
     <section class="text-center text-lg-start text-secondary">
@@ -336,10 +348,12 @@
                             <div class="col-md-6 data order-first order-lg-last order-md-last order-sm-first order-xl-last order-xxl-last">
                                 <ul>
                                     <li>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/phone-call.png" class="phone-icon"><span><?php _e( '+48 533 826 795', 'fumee' ); ?></span>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/phone-call.png" class="phone-icon">
+                                        <span><?php _e( '+48 533 826 795', 'fumee' ); ?></span>
                                     </li>
                                     <li>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/mail.png" class="phone-icon"><span><?php _e( 'biuro@fumee.pl', 'fumee' ); ?></span>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/mail.png" class="phone-icon">
+                                        <span><?php _e( 'biuro@fumee.pl', 'fumee' ); ?></span>
                                     </li>
                                 </ul>
                             </div>
@@ -348,12 +362,12 @@
                 </div>
                 <div class="justify-content-md-evenly pb-3 row">
                     <div class="col-md-7 col-xxl-6 data-footer order-last order-md-first order-sm-last order-xxl-first" "">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/breath.png">
-                        <span><?php _e( '@2024 wszelkie prawa zastrzeżone', 'fumee' ); ?></span><span><a class="active link-light nav-link" aria-current="page" href="https://breathdesignstudio.com"><?php _e( '&nbsp;BREATH DESIGN STUDIO', 'fumee' ); ?></a></span>
-                        <!-- dodać <a> do instagrama Oliwci -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/breath.png"><span><?php _e( '@2024 wszelkie prawa zastrzeżone', 'fumee' ); ?></span>
+                        <span><a class="active link-light nav-link" aria-current="page" href="https://breathdesignstudio.com"><?php _e( '&nbsp;BREATH DESIGN STUDIO', 'fumee' ); ?></a></span>
                     </div>
-                    <div class="col-md-4 justify-content-md-end rules-container">
-                        <a class="active link-light nav-link" aria-current="page" href="policy.html"><?php _e( 'POLITYKA PRYWATNOŚCI', 'fumee' ); ?></a><span class="separator"> / </span><a class="active link-light nav-link" aria-current="page" href="rules.html"><?php _e( 'REGULAMIN', 'fumee' ); ?></a>
+                    <div class="col-md-4 justify-content-md-end rules-container"><a class="active link-light nav-link" aria-current="page" href="policy.html"><?php _e( 'POLITYKA PRYWATNOŚCI', 'fumee' ); ?></a>
+                        <span class="separator"> / </span>
+                        <a class="active link-light nav-link" aria-current="page" href="rules.html"><?php _e( 'REGULAMIN', 'fumee' ); ?></a>
                         <!--  
                             podpiąć taki odnośnik pod obrazek w nagłówku
                             <a href="https://wa.me/48123456789?text=Cze%C5%9B%C4%87%2C%20jak%20si%C4%99%20masz%3F" target="_blank"></a> 
