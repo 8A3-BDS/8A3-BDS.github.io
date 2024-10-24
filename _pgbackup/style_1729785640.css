@@ -1,6 +1,7 @@
 body {
   font-family: "Satoshi", sans-serif;
   max-width: 1920px;
+  margin: auto;
 }
 
 h2 {
@@ -18,7 +19,6 @@ h4 {
 .custom-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(var(--bs-dark)), to(var(--bs-secondary)));
   background: linear-gradient(to bottom, var(--bs-dark), var(--bs-secondary));
-  max-width: 1920px;
 }
 
 .col-lg-5 {
@@ -1988,7 +1988,6 @@ h4 {
   width: 100%;
   padding: 0 5%;
   color: #ffffff;
-  max-width: 1920px;
 }
 
 .container-rules h3 {

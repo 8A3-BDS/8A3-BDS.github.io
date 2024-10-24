@@ -1,6 +1,7 @@
 body {
     font-family: 'Satoshi', sans-serif;
     max-width: 1920px;
+    margin: auto;
 }
 
 h2 {
@@ -1928,13 +1929,13 @@ h4 {
 // --- KONIEC MEDIA QUERY! --- //
 .custom-gradient-form {
     background: linear-gradient(to bottom, var(--bs-primary), var(--bs-dark));
+    max-width: 1920px;
 }
 
 .container-rules {
     width: 100%;
     padding: 0 5%;
     color: #ffffff;
-    max-width: 1920px;
 }
 
 .container-rules h3 {

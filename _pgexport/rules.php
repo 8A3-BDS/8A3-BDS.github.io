@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<nav class="navbar navbar-dark navbar-expand-lg text-center">
+<nav class="navbar navbar-dark navbar-expand-lg text-center" id="container-rules">
     <div class="container-fluid">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/fumee_logo_navbar.png" alt="Fumee logo" id="header-logo1"> 
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler10" aria-controls="" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"> <span class="navbar-toggler-icon"></span> 
